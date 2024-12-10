@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casteria</title>
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+</head>
+
+<body>
+    <header class="c-header">
+        <div class="main-menu">
+            <a href="index.html" class="c-header__logo">Casteria</a>
+            <div class="pc-menu">
+                <div class="pc-contents">
+                    <ul class="pc-ul">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Food</a>
+                        </li>
+                        <li>
+                            <a href="#">Drink</a>
+                        </li>
+                        <li>
+                            <a href="#">お問合せ</a>
+                        </li>
+                    </ul>
+                    <form action="#" id="search-form">
+                        <label>
+                            <input type="text" placeholder="Search">
+                        </label>
+                        <button type="submit" aria-label="検索">
+                            <p>Search</p>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="sp-menu">
+                <input type="checkbox" id="sp-menu__check">
+                <label for="sp-menu__check" class="sp-menu__box">
+                  <span></span>
+                </label>
+                <div class="sp-menu__content">
+                    <ul class="sp-menu__list">
+                      <li class="sp-menu__item">
+                        <a class="sp-menu__link" href="#">Home</a>
+                      </li>
+                      <li class="sp-menu__item">
+                        <a class="sp-menu__link" href="#">Food</a>
+                      </li>
+                      <li class="sp-menu__item">
+                        <a class="sp-menu__link" href="#">Drink</a>
+                      </li>
+                      <li class="sp-menu__item">
+                        <a class="sp-menu__link" href="#">お問合せ</a>
+                      </li>
+                    </ul>
+                    <form action="#" id="search-form">
+                        <label>
+                            <input type="text" placeholder="Search">
+                        </label>
+                        <button type="submit" aria-label="検索">
+                            <p>Search</p>
+                        </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="swiper">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="item">
+                    <img src="./img/restaurant.jpg" alt="レストランの写真">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <img src="./img/food.jpg" alt="ムニエルの写真">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <img src="./img/food2.jpg" alt="パスタの写真">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <img src="./img/interior.jpg" alt="内装の写真">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    </div>
+    <div id="announce">
+        <h1>新型コロナウイルスに対する取り組みの最新情報をご案内</h1>
+        <div class="announce_one">
+            <div class="title">
+                <h2>■衛生面に関して</h2>
+            </div>
+            <ul class="announce_inner">
+                <li>マスクを着用しての接客</li>
+                <li>出勤前の検温の徹底</li>
+                <li>レジカウンターやドリンク受け渡し口等への飛沫防止ガードの設置</li>
+                <li>より頻度の高い手洗いの励行</li>
+                <li>テーブルにお客様用の消毒用アルコールの設置</li>
+                <li>従業員間の距離確保のため、休憩や研修時の客席利用</li>
+            </ul>
+
+        </div>
+        <div class="announce_one">
+            <div class="title">
+                <h2>■お客様へのご協力のお願い</h2>
+            </div>
+            <ul class="announce_inner">
+                <li>店内では、飲食時以外のマスクの着用をお願いいたします</li>
+                <li>入店時に手指の消毒にご協力ください</li>
+                <li>レジに並ぶ際、目安を示すフロアステッカーに沿った列間隔の確保にご協力ください</li>
+                <li>多数でお越しの際は、お1人がまとめてご注文願います（混雑時に入場制限をする場合がございます）</li>
+                <li>発熱や体調不良の際はご入店をお控えください</li>
+            </ul>
+        </div>
+        <div class="announce_one">
+            <div class="title">
+                <h2>■サービスに関して</h2>
+            </div>
+            <ul class="announce_inner">
+                <li>直接お渡しする商品の提供、金銭授受時にグローブ着用</li>
+                <li>ドリンクやフードのサンプリング中止</li>
+                <li>地域活動・イベントの中止</li>
+                <li>混雑時間帯の客席の譲り合いへのご協力お願いの実施</li>
+                <li>店内設置しているミルク、はちみつ、パウダー類の一時引き上げ</li>
+                <li>混雑状況に応じたドライブスルーサービスの一時休止や店内客席利用の制限</li>
+            </ul>
+        </div>
+
+
+    </div>
+    <div id="about">
+        <div class="anime1" id="about1">
+            <h3>Signature Food</h3>
+            <div class="flexbox">
+                <img src="./img/food.jpg" alt="ムニエルの写真">
+                <div class="textbox">
+                    <p>サーモンは刺身やカルパッチョで食べるのが美味しいですが、リッチな気分になれるサーモンステーキがおすすめです。サーモンの美味しさを引き立てる2種のソースも絶品です！</p>
+                </div>
+            </div>
+        </div>
+        <div class="anime1" id="about2">
+            <h3>Our Coffee</h3>
+            <div class="flexbox">
+                <img src="./img/barista.jpg" alt="コーヒーの写真">
+                <div class="textbox">
+                    <p>当店のコーヒー豆が厳選して世界中から買い付けています。そして、そのコーヒー豆の美味しさを最大限に引き出すために自社のロースタリーで焙煎しています。</p>
+                </div>
+            </div>
+        </div>
+        <div class="anime1" id="about3">
+            <h3>Our Food</h3>
+            <div class="flexbox">
+                <img src="./img/food3.jpg" alt="食材の写真">
+                <div class="textbox">
+                    <p>当店は何よりまずは衛生管理に気をつけています。「安全・安心」をお届けするために日々継続的な努力を惜しみません。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="anime1" id="address">
+        <div class="flexbox">
+            <div id="info">
+                <h3>Address</h3>
+                <p class="info_p">681 xxxx Drive,xxxxx xxxx #01-06 000000</p>
+                <p class="info_p">Opening Hours</p>
+                <h3>Mondays-Friday:10am-9pm</h3>
+                <p class="info_p">Saturdays,Sundays & Public Holidays: 9am- 9pm</p>
+            </div>
+            <img src="./img/barista.jpg" alt="コーヒーの写真">
+        </div>
+    </div>
+
+    <div class="anime1" id="otherstores">
+        <h2>店舗一覧</h2>
+        <div id="store_li" style="display:flex;">
+            <div id="tokyostore">
+                <img class="store-i" src="./img/restaurant2.jpg" alt="東京にあるレストランの写真">
+                <p class="jusho">
+                    <img class="mapmarker" src="./img/mapmarker.png" alt="地図アイコン">
+                    東京都渋谷区xxxxxx xxxxx
+                </p>
+            </div>
+            <div id="chibastore">
+                <img class="store-i" src="./img/restaurant3.jpg" alt="千葉にあるレストランの写真">
+                <p class="jusho">
+                    <img class="mapmarker" src="./img/mapmarker.png" alt="地図アイコン">
+                    千葉県松戸市xxxxx xxxxx
+                </p>
+            </div>
+            <div id="kanagawastore">
+                <img class="store-i" src="./img/restaurant4.jpg" alt="神奈川にあるレストランの写真">
+                <p class="jusho">
+                    <img class="mapmarker" src="./img/mapmarker.png" alt="地図アイコン">
+                    神奈川県横浜市xxxxx xxxx
+                </p>
+            </div>
+            <div id="saitamastore">
+                <img class="store-i" src="./img/restaurant5.jpg" alt="埼玉にあるレストランの写真">
+                <p class="jusho">
+                    <img class="mapmarker" src="./img/mapmarker.png" alt="地図アイコン">
+                    埼玉県川越市xxxx xxxx
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul id="footmenu" style="display:flex;">
+            <li><a href="">プライバシーポリシー</a></li>
+            <li><a href="">お問合せ</a></li>
+            <li><a href="">運営会社</a></li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script >
+        
+        <script>
+            $(function() {
+                $('#nav-content li a').on('click', function(event) {
+                  $('#nav-input').prop('checked', false);
+                });
+            });
+
+            const swiper = new Swiper(".swiper", {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                    breakpoints: {
+                        // 768px以上の場合
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 0,
+                        },
+                    },
+    
+                direction: 'horizontal',
+                loop: true,
+    
+                pagination: {
+                    el: ".swiper-pagination"
+                },
+    
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                scrollbar: {
+                    el: ".swiper-scrollbar",
+                    hide: false,
+                    draggable: true 
+                }
+            });
+    
+            $(function(){
+                $('.announce_one .title').click(function(){
+                    $(this).next('.announce_inner').slideToggle();
+                    $(this).toggleClass("open");
+                });
+            });
+    
+            jQuery(function($) {
+            $(window).on('load scroll', function (){
+     
+                var box = $('.anime1');
+                var animated = 'animated';
+      
+                box.each(function(){
+      
+                    var boxOffset = $(this).offset().top;
+                    var scrollPos = $(window).scrollTop();
+                    var wh = $(window).height();
+     
+                    if(scrollPos > boxOffset - wh + 100 ){
+                    $(this).addClass(animated);
+                    }
+                });
+            });
+            })
+    
+        </script>
+
+</body>
+</html>
